@@ -10,7 +10,7 @@ sq=num**2
 res=0
 while sq>0:
     r = sq%10
-    req += r
+    res += r
     sq = sq//10
 if res==num:
     print("neon number")
